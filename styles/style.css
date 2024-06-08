@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    font-family: 'Rubik', sans-serif;
+    color: #e0e1dd;
+    background-image: url("https://images.unsplash.com/photo-1518563795073-6b72265ad862?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1365&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    color: #e0e1dd;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.title h2 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+.title h3 {
+    font-size: 2rem;
+    margin: 5px 0;
+}
